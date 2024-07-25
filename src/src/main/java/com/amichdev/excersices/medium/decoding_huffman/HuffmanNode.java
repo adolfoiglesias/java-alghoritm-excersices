@@ -1,0 +1,12 @@
+package com.amichdev.excersices.medium.decoding_huffman;
+
+class HuffmanNode extends Node {
+
+    public HuffmanNode(Node l, Node r) {
+        super(l.frequency + r.frequency);
+        left = l;
+        right = r;
+    }
+
+}
+
